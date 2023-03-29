@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script',cursive;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: url(https://i1.wp.com/skbse.com/wp-content/uploads/2017/07/typing.jpg?zoom=2&resize=570%2C350);
+    background-size: cover;
+    width: 100%;
+
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.link {
+    font-style: 30px;
+    text-transform: capitalize;
+    color: black;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #fff
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.call {
+    text-transform: uppercase;
+    font-size: 24px;
+    background: white;
+    max-width: 300px;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
+
+
+.about {
+    padding-top: 60px;
+    text-align: center;
+    
+}
+
+.about-title, .works-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.about-txt {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+
+.about-btn {
+    display: inline-block;
+    background: black;
+    color: #fff;
+    max-width: 300px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0;
+    
+}
+
+
+.works {
+    padding-top: 60px;
+}
+
+
+.card {
+    max-width: 350px;
+    width: 100%;
+    border: 4px solid black;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card-btn {
+    background: black;
+    color: #fff;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    max-width: 150px;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+
+.footer {
+    background: black;
+    padding: 30px 0;
+    column-gap: 30px;
+}
+
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+
+

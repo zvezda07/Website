@@ -1,0 +1,36 @@
+@media (max-width: 736px) {
+    .card {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 736px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .call {
+        padding: 2px 0;
+    }
+}
+
+@media (max-width: 460px) {
+    .card-btn {
+        padding: 3px 0;
+    }
+
+    .about-btn {
+        padding: 3px 0;
+    }
+}
+
+@media (max-width: 460px){
+     .footer-list {
+        gap: 20px;
+}
+}
+    
